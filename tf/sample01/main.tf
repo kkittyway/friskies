@@ -2,9 +2,9 @@ provider "azurerm" {
   version = "=2.24.0"
 
   subscription_id = "${file("../account.json")}"
-  client_id       = ""
-  client_secret   = ""
-  tenant_id       = ""
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  tenant_id       = var.tenant_id
   features {}
 }
 
