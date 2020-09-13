@@ -1,5 +1,4 @@
 *.tfstate
 *.tfstete.backup
 .terraform/
-none*
-e*
+src/
